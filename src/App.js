@@ -7,8 +7,9 @@ import { BrowserRouter, Route, Routes, NavLink } from 'react-router-dom';
 
 function App() {
   return (
+    <div  style={{ backgroundImage: "url(/img/background.jpg)" }}>
     <BrowserRouter>
-    <div className="App container">
+    <div className="App container" style={{ backgroundColor: "white" }}>
       <h3 className='d-flex justify-content-center m-3'>
         Library
       </h3>
@@ -39,6 +40,7 @@ function App() {
       </Routes>
     </div>
     </BrowserRouter>
+    </div>
   );
 }
 
